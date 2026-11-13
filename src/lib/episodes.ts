@@ -31,7 +31,7 @@ export const base = import.meta.env.BASE_URL.endsWith('/')
   ? import.meta.env.BASE_URL
   : import.meta.env.BASE_URL + '/';
 
-/** رابط داخلي يراعي مسار المستودع /irshad/ */
+/** رابط داخلي يراعي المسار الأساسي للموقع (base في astro.config.mjs) */
 export const href = (p = '') => base + p.replace(/^\//, '');
 
 /** رابط كامل لصفحة على الموقع المنشور (للمشاركة ووسوم المعاينة). */

@@ -2,8 +2,8 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://konan121.github.io',
-  base: '/irshad/',
+  site: 'https://irshad-om.github.io',
+  base: '/',
   trailingSlash: 'always',
   build: {
     format: 'directory',

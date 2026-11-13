@@ -1,12 +1,12 @@
 // فحص آلي للموقع بمتصفح Chrome الحقيقي، بمقاس iPhone 13 ومقاس آيفون 375×812 والكمبيوتر.
-// الاستخدام:  npm run check-site -- https://konan121.github.io/irshad/  [--out مجلد_اللقطات]
+// الاستخدام:  npm run check-site -- https://irshad-om.github.io/  [--out مجلد_اللقطات]
 import { chromium, devices } from 'playwright';
 import { mkdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { ROOT, EPISODES_FILE } from './lib.mjs';
 
 const args = process.argv.slice(2);
-const BASE = (args.find((a) => a.startsWith('http')) || 'http://localhost:4322/irshad/').replace(/\/?$/, '/');
+const BASE = (args.find((a) => a.startsWith('http')) || 'http://localhost:4322/').replace(/\/?$/, '/');
 const outIdx = args.indexOf('--out');
 const OUT = outIdx >= 0 ? path.resolve(args[outIdx + 1]) : path.join(ROOT, '.check');
 await mkdir(OUT, { recursive: true });

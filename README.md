@@ -6,7 +6,7 @@
 
 إعداد الأخصائيتين الاجتماعيتين: هاجر الذهلي · كوثر العجمي
 
-**رابط الموقع:** https://konan121.github.io/irshad/
+**رابط الموقع:** https://irshad-om.github.io/
 
 #نحو_سلوك_مدرسي_إيجابي
 
@@ -40,7 +40,7 @@ npm run add-episode
 </div>
 
 ```bash
-git clone https://github.com/konan121/irshad.git
+git clone https://github.com/irshad-om/irshad-om.github.io.git irshad
 cd irshad
 npm install
 ```
@@ -96,7 +96,7 @@ npm run add-episode
 ### الخطوة ٣: تأكد من ظهورها
 
 بعد دقيقتين تقريبًا افتح الرابط الذي يطبعه السكربت، مثل:
-`https://konan121.github.io/irshad/ep/ir09/`
+`https://irshad-om.github.io/ep/ir09/`
 
 يمكنك متابعة النشر من تبويب **Actions** في صفحة المستودع على GitHub.
 
@@ -128,7 +128,7 @@ git push
 
 | الأمر | ماذا يفعل |
 |---|---|
-| `npm run dev` | يشغّل الموقع على الجهاز للمعاينة: http://localhost:4321/irshad/ |
+| `npm run dev` | يشغّل الموقع على الجهاز للمعاينة: http://localhost:4321/ |
 | `npm run build` | يبني الموقع في مجلد `dist` |
 | `npm run assets` | ينزّل الأغلفة والشعارات الناقصة من Drive |
 | `npm run check-site -- <الرابط>` | فحص آلي بمقاس iPhone 13 والكمبيوتر |
